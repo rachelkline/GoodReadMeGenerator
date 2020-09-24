@@ -14,10 +14,10 @@
 
   ---
 
-## Video-Tutorial
+## Video Tutorial
 
 
-![](assets/tutorial.mp4)
+[![IMAGE](Develop/assets/video.png)](https://drive.google.com/file/d/1j9GrG6QTUkGiJMAumKA4bWCoDt3iasW_/preview) 
 
   ---
 ## Table of Contents
