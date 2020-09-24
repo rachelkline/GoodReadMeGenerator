@@ -16,6 +16,7 @@
 
 ## Video Tutorial
 
+Click the play button to be redirected to the video tutorial.
 
 [![IMAGE](Develop/assets/video.png)](https://drive.google.com/file/d/1j9GrG6QTUkGiJMAumKA4bWCoDt3iasW_/preview) 
 
