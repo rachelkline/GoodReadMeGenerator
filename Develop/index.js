@@ -1,5 +1,4 @@
 const inquirer = require("inquirer");
-const axios = require("axios");
 const fs = require("fs");
 
 //Internal Modules
@@ -18,6 +17,12 @@ const questions = [
         type: "input",
         message: "Write a description for your project.",
         name: "description",
+    },
+    {
+        type: "list",
+        message: "What language did you utilize the most for this project?",
+        choices: ["HTML5", "JavaScript", "CSS", "MySQL"],
+        name: "language"
     },
     {
         type: "input",
@@ -42,7 +47,7 @@ const questions = [
     {
         type: "list",
         message: "Choose a license for your project.",
-        choices: ['MIT', 'ISC', 'GNU', 'GPLv3'],
+        choices: ['Apache_License_2.0', 'ISC', 'MIT', 'GNU_GPL_3.0'],
         name: "license"
     },
     {
@@ -67,6 +72,7 @@ function init() {
             if (err){
                 throw err;
             }
+            console.log("Success! Your EXAMPLE.md file has been generated.")
         });
     })
     
