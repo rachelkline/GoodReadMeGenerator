@@ -16,7 +16,8 @@
 
 ## Video-Tutorial
 
-<iframe src="https://drive.google.com/file/d/1j9GrG6QTUkGiJMAumKA4bWCoDt3iasW_/preview" width="640" height="480"></iframe>
+
+![](assets/tutorial.mp4)
 
   ---
 ## Table of Contents
