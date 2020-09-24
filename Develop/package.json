@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "goodreadmegenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Promps a user through creating a ReadMe file and then generates a 'Good ReadMe' based on the given information.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelkline/GoodReadMeGenerator.git"
+  },
+  "author": "Rachel Kline",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelkline/GoodReadMeGenerator/issues"
+  },
+  "homepage": "https://github.com/rachelkline/GoodReadMeGenerator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^7.3.3"
   }
 }
